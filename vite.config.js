@@ -16,6 +16,7 @@ export default defineConfig({
       sassVariables: '/src/assets/style/quasar.variables.scss'
     })
   ],
+  base: '/web-app/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
